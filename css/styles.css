@@ -130,16 +130,20 @@ label {
 .contact-h1 {
 	margin: 0 auto;
 	display: block;
-	padding: 35px 0;
-	height: 150px;
+	padding: 30px 0;
+	height: 110px;
+}
+
+.work-h1 {
+	padding: 30px 0 20px;
 }
 
 #work-anchor,
 #contact-anchor {
 	background-color: #a1979f;
-	box-shadow: 0px 3px 4px #777;
-		-webkit-box-shadow: 0px 3px 4px #555;
-		-moz-box-shadow: 0px 3px 4px #555;
+	box-shadow: 0px 2px 2px #777;
+		-webkit-box-shadow: 0px 2px 2px #777;
+		-moz-box-shadow: 0px 2px 2px #777;
 }
 
 
@@ -237,9 +241,9 @@ label {
 
 #web-design-head {
 	background-color: #a1979f;
-	box-shadow: 0px 3px 4px #777;
-		-webkit-box-shadow: 0px 3px 4px #555;
-		-moz-box-shadow: 0px 3px 4px #555;
+	box-shadow: 0px 2px 2px #777;
+		-webkit-box-shadow: 0px 2px 2px #777;
+		-moz-box-shadow: 0px 2px 2px #777;
 }
 
 #work p {
@@ -305,10 +309,6 @@ label {
 
 #contact {
 	margin: 0 auto;
-}
-
-.contact-h1 {
-	height: 130px;
 }
 
 #contact p {
