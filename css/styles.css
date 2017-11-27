@@ -60,7 +60,7 @@ li {
 	list-style: none;
 	text-align: center;
 	margin:  40px 0;
-	font-size: 1.25em;
+	font-size: 1.5em;
 }
 
 span {
@@ -120,7 +120,6 @@ label {
 
 /***************** COMMON STYLING *****************/
 
-#about,
 #work,
 #contact {
 	margin-bottom: 30px;
@@ -140,7 +139,7 @@ label {
 
 #work-anchor,
 #contact-anchor {
-	background-color: #a1979f;
+	background-color: #564853;
 	box-shadow: 0px 2px 2px #777;
 		-webkit-box-shadow: 0px 2px 2px #777;
 		-moz-box-shadow: 0px 2px 2px #777;
@@ -167,18 +166,13 @@ label {
 	background: url("flower-with-bkg.jpg") center;
 	background-size: 135%;
 	line-height: 2em;
-	padding: 80px 0 0;
+	padding: 75px 0 0;
 	height: 432px;
 }
 
 .main-nav a {
 	color: #555;
 }
-
-.main-nav ul li {
-	font-size: 1em;
-}
-
 
 
 
@@ -189,11 +183,14 @@ label {
 	justify-content: center;
 	align-items: center;
 	overflow: hidden; /*fits image inside html div*/
+	background-color: #bcb3bb;
+	padding-bottom: 40px;
 }
 
 .me {
 	position: relative; /*moves image behind paragraph*/
 	max-width: 450px;
+	margin-top: 50px;
 }
 
 .about-title {
@@ -205,7 +202,7 @@ label {
 	margin: 0;
 	padding: 20px 0;
 	color: #eeeded;
-	background-color: #a1979f;
+	background-color: #564853;
 	border-radius: 20px 20px 0 0;
 		-webkit-border-radius: 20px 20px 0 0;
 		-moz-border-radius: 20px 20px 0 0;
@@ -213,17 +210,14 @@ label {
 
 .about-paragraph {
 	position: absolute; /*moves image behind paragraph*/
-	top: 700px;
-	background-color: #eeeded;
+	top: 765px;
+	background-color: #fff;
 	text-align: center;
 	max-width: 325px;
 	border-radius: 20px;
 		-webkit-border-radius: 20px;
 		-moz-border-radius: 20px;
 	padding: 0 0 25px;
-	box-shadow: 0px 0px 7px #555;
-		-webkit-box-shadow: 0px 0px 7px #555;
-		-moz-box-shadow: 0px 0px 7px #555;
 }
 
 .about-paragraph p {
@@ -240,7 +234,7 @@ label {
 }
 
 #web-design-head {
-	background-color: #a1979f;
+	background-color: #564853;
 	box-shadow: 0px 2px 2px #777;
 		-webkit-box-shadow: 0px 2px 2px #777;
 		-moz-box-shadow: 0px 2px 2px #777;
