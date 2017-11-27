@@ -32,28 +32,12 @@ body {
 
 header {
 	margin: 0 auto;
-<<<<<<< HEAD
 	background-color: #9ba197
 }
 
 p {
 	font-size: 1em;
 	color: #333;
-=======
-	background-color: #e6e6e6;
-}
-
-h2 {
-	font-size: 1.6em;
-	color: #555;
-	text-align: center;
-	margin: 0;
-}
-
-p {
-	font-size: 1.0em;
-	color: #555;
->>>>>>> origin/gh-pages
 	line-height: 1.5em;
 	margin: 25px 0 0;
 }
@@ -208,7 +192,6 @@ label {
 	max-width: 450px;
 }
 
-<<<<<<< HEAD
 .about-title {
 	font-family: 'Saira Extra Condensed', sans-serif;
 	font-size: 2em;
@@ -222,13 +205,6 @@ label {
 	border-radius: 20px 20px 0 0;
 		-webkit-border-radius: 20px 20px 0 0;
 		-moz-border-radius: 20px 20px 0 0;
-=======
-.hi-there {
-	font-family: 'Shadows Into Light', cursive;
-	font-weight: 800;
-	background: #e6e6e6;
-	margin: 30px 0 0;
->>>>>>> origin/gh-pages
 }
 
 .about-paragraph {
@@ -254,22 +230,16 @@ label {
 
 /********************* WORK *********************/
 
-
 .wrapper {
 	max-width: 1200px;
 	margin: 0 auto;
 }
 
-<<<<<<< HEAD
 #web-design-head {
 	background-color: #a1979f;
 	box-shadow: 0px 3px 4px #777;
 		-webkit-box-shadow: 0px 3px 4px #555;
 		-moz-box-shadow: 0px 3px 4px #555;
-=======
-.heading-work {
-	background-color: #b1b26c;
->>>>>>> origin/gh-pages
 }
 
 #work p {
@@ -282,44 +252,16 @@ label {
 }
 
 .wrap {
-<<<<<<< HEAD
-=======
-	background: rgba(264,264,264,.75);
->>>>>>> origin/gh-pages
 	border-radius: 5px;
 		-webkit-border-radius: 5px;
 		-moz-border-radius: 5px;
 	margin: 7% 7% 40px;
 }
 
-.h2-heading {
-	font-family: 'Anton', sans-serif;
-	font-size: 2em;
-	color: #555;
-	opacity: .3;
-	text-transform: uppercase;
-	margin-bottom: -5px;
-	margin-left: 10%;
-	text-align: left;
-
-}
-
 #lightGallery,
 #web-design {
-<<<<<<< HEAD
 	margin: 40px 0 15px;
 	box-shadow: 
-=======
-	background: #555;
-	border-radius: 20px;
-	-webkit-border-radius: 20px;
-	-moz-border-radius: 20px;
-	padding-top: 30px;
-}
-
-#web-design {
-	padding-bottom: 15px;
->>>>>>> origin/gh-pages
 }
 
 #lightGallery p {
@@ -551,12 +493,6 @@ header {
 	border-radius: 0;
 		-webkit-border-radius: 0;
 		-moz-border-radius: 0;
-}
-
-.h2-heading {
-	font-size: 3em;
-	padding-top: 0;
-	margin-bottom: -7px;
 }
 
 #lightGallery {
