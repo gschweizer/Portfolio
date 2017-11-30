@@ -44,6 +44,8 @@ p {
 
 a {
 	text-decoration: none;
+	color: #9ba197;
+	cursor: pointer;
 }
 
 a:hover,
@@ -60,7 +62,7 @@ li {
 	list-style: none;
 	text-align: center;
 	margin:  40px 0;
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 
 span {
@@ -68,52 +70,52 @@ span {
 }
 
 label {
- color: #999;
- display: inline-block;
- text-align: left;
- width: 20%;
+	color: #999;
+	display: inline-block;
+	text-align: left;
+	width: 20%;
 }
 
 fieldset {
- border: none;
- padding: 0;
- margin: 0;
- background: #444;
+	border: none;
+	padding: 0;
+	margin: 0;
+	background: #444;
 }
 
 input:placeholder-shown {
- text-align: left;
- color: #aaa;
+	text-align: left;
+	color: #aaa;
 }
 
 button {
- background: #9ba197;
- padding: 19px 39px 18px;
- color: #FFF;
- text-align: center;
- border-radius: 5px;
- 	-webkit-border-radius: 0 2px 5px #aaa;
+	background: #9ba197;
+	padding: 19px 39px 18px;
+	color: #FFF;
+	text-align: center;
+	border-radius: 5px;
+		-webkit-border-radius: 0 2px 5px #aaa;
 	-moz-border-radius: 0 2px 5px #aaa;
- width: 80%;
- margin: 25px auto;
- border-style: none;
- display: block;
- cursor: pointer;
- outline: none;
+	width: 80%;
+	margin: 25px auto;
+	border-style: none;
+	display: block;
+	cursor: pointer;
+	outline: none;
  }
 
  select {
- cursor: pointer;
- /*added new arrows since removed all default css*/
- background-image: url(../images/arrows.svg);
- background-repeat: no-repeat;
- background-position: right center;
- background-size: 20px;
+	cursor: pointer;
+	/*added new arrows since removed all default css*/
+	background-image: url(../images/arrows.svg);
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-size: 20px;
 }
 
 label {
- margin-left: 10%;
- display: inline-block;
+	margin-left: 10%;
+	display: inline-block;
 }
 
 
@@ -137,12 +139,16 @@ label {
 	padding: 30px 0 20px;
 }
 
+.about-h1 {
+	display: none;
+}
+
 #work-anchor,
 #contact-anchor {
 	background-color: #564853;
-	box-shadow: 0px 2px 2px #777;
-		-webkit-box-shadow: 0px 2px 2px #777;
-		-moz-box-shadow: 0px 2px 2px #777;
+	box-shadow: 0px 2px 3px 1px #aaa; /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 2px 3px 1px #aaa;
+		-moz-box-shadow: 0px 2px 3px 1px #aaa;
 }
 
 
@@ -160,20 +166,29 @@ label {
 
 /********************* NAV *********************/
 
+#nav-bkg {
+	background: url("Paper-bkg.jpg") center repeat;
+}
+
 .main-nav {
 	border-top: 4px solid #49553f;
 	list-style: none;
-	background: url("flower-with-bkg.jpg") center;
-	background-size: 135%;
 	line-height: 2em;
 	padding: 75px 0 0;
 	height: 432px;
+	background: url("flower-lower-opacity.png") center no-repeat;
+	box-shadow: 0px 0px 35px 15px #ddd inset; /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 0px 35px 15px #ddd inset;
+		-moz-box-shadow: 0px 0px 35px 15px #ddd inset;
 }
 
 .main-nav a {
 	color: #555;
 }
 
+.welcome {
+	display: none;
+}
 
 
 /********************* ABOUT *********************/
@@ -206,6 +221,9 @@ label {
 	border-radius: 20px 20px 0 0;
 		-webkit-border-radius: 20px 20px 0 0;
 		-moz-border-radius: 20px 20px 0 0;
+	box-shadow: 0px 2px 3px 1px #aaa; /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 2px 3px 1px #aaa;
+		-moz-box-shadow: 0px 2px 3px 1px #aaa;
 }
 
 .about-paragraph {
@@ -222,6 +240,8 @@ label {
 
 .about-paragraph p {
 	padding: 0 25px;
+	font-size: 1em;
+	text-align: justify;
 }
 
 
@@ -235,9 +255,9 @@ label {
 
 #web-design-head {
 	background-color: #564853;
-	box-shadow: 0px 2px 2px #777;
-		-webkit-box-shadow: 0px 2px 2px #777;
-		-moz-box-shadow: 0px 2px 2px #777;
+	box-shadow: 0px 2px 3px 1px #aaa; /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 2px 3px 1px #aaa;
+		-moz-box-shadow: 0px 2px 3px 1px #aaa;
 }
 
 #work p {
@@ -287,9 +307,9 @@ label {
 	width: 50%;
 	height: 50%;
 	margin: 0 auto;
-	box-shadow: 0 2px 5px #aaa;
-		-webkit-box-shadow: 0 2px 5px #aaa;
-		-moz-box-shadow: 0 2px 5px #aaa;
+	box-shadow: 0 2px 3px #aaa;
+		-webkit-box-shadow: 0 2px 3px #aaa;
+		-moz-box-shadow: 0 2px 3px #aaa;
 }
 
 .imgDesc {
@@ -301,6 +321,13 @@ label {
 
 /********************* CONTACT *********************/
 
+#contact-bkg {
+	background: url("Paper-bkg.jpg") center repeat;
+	box-shadow: 0px 0px 35px 15px #ddd inset; /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 0px 35px 15px #ddd inset;
+		-moz-box-shadow: 0px 0px 35px 15px #ddd inset;
+}
+
 #contact {
 	margin: 0 auto;
 }
@@ -309,7 +336,6 @@ label {
 	padding: 30px 35px;
 	margin-top: 0;
 	text-align: center;
-	background: url("watercolor-paper-horiz.jpg") center no-repeat;
 }
 
 #contact a {
@@ -318,7 +344,6 @@ label {
 
 #contact ul li {
 	font-size: .95em;
-	background: url("watercolor-paper-horiz.jpg") center no-repeat;
 	margin: 0;
 	padding: 35px 0;
 }
@@ -339,7 +364,6 @@ input[type="email"],
 textarea,
 select {
  border: none;
- font-size: 16px;
  height: auto;
  padding: 15px;
  width: 80%;
@@ -369,7 +393,6 @@ input:focus {
 }
 
 
-
 /********************* FOOTER *********************/
 
 footer {
@@ -384,7 +407,6 @@ footer a {
 }
 
 
-
 /* ================================= 
   Media Queries
 ==================================== */
@@ -395,6 +417,15 @@ header {
 	border: none;
 }
 
+p {
+	font-size: 1.25em;
+}
+
+fieldset {
+font-size: 1.25em;
+border-radius: 20px;
+}
+
 
 
 /********************* HEADER MEDIA *********************/
@@ -403,31 +434,34 @@ header {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	margin-top: -2px;
 }
 
 .logo {
   	/* content: url("header_tablet.svg"); /* replaces header image */
-  	padding-top: 0;
-  	margin: 30px 0 90px 4%;
-  	width: 300px;
+  	width: 350px;
+  	margin: 40px auto;
+  	padding: 0;
  }
 
+.welcome {
+	display: block;
+	margin: 0 auto;
+}
+
 .main-nav {
-	background: url("flower.png");
-	border: none;
-	margin: 0 4% 0 0;
-	padding: 0;
-	display: flex;
+	padding-top: 40px;
+	height: 696px;
+	background: none;
+	box-shadow: 0px 0px 35px 20px #ddd inset; /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 0px 35px 20px #ddd inset;
+		-moz-box-shadow: 0px 0px 35px 20px #ddd inset;
 }
 
 .main-nav li {
+	margin: 0 auto;
 	padding-top: 25px;
+	height: 80px;
 	width: 80px; /* if hover over a nav list item, it won't push the other list items left */
-}
-
-.main-nav a {
-	font-size: 1.1em;
 }
 
 .main-nav a:hover:after {
@@ -436,7 +470,6 @@ header {
 	content: url("hover_image.png");
 	top: -15px;
 	width: 100%;
-	height: auto;
 }
 
 
@@ -445,40 +478,58 @@ header {
 
 #about {
 	padding: 0;
-	margin-bottom: 30px;
-	background: url(about_bkg_tablet.jpg) no-repeat right;
-	background-size: 30%;
-	justify-content: left;
-	align-items: left;
+	background-color: #fff;
 }
 
-.me {
-	position: static;
-	margin: 30px 0 0 -5px;
-	max-width: 350px;
+#about-anchor {
+	background-color: #564853;
+	margin-bottom: 30px;
+	box-shadow: 0px 2px 3px 1px #aaa; /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 2px 3px 1px #aaa;
+		-moz-box-shadow: 0px 2px 3px 1px #aaa;
 }
 
 .about-title {
-	font-size: 1.75em;
-	text-align: left;
-	margin: 0;
-	padding: 0 0 5px 0;
-	border-bottom: solid 1px gray;
+	display: none;
+}
+
+.about-h1 {
+	display: block;
+	margin: 0 auto;
+	padding: 30px 0;
+}
+
+.me {
+	margin-top: 0;
+	box-shadow: 0 3px 4px 4px #aaa;
+		-webkit-box-shadow: 0 3px 4px 4px #aaa;
+		-moz-box-shadow: 0 3px 4px 4px #aaa;
 }
 
 .about-paragraph {
 	position: static;
-	padding: 50px  0 20px 30px;
-	text-align: left;
-	background-color: rgba(0, 0, 0, 0);
-	margin: 0;
-	max-width: 35%;
+	text-align: center;
+	margin: 0 auto;
+	max-width: 80%;
+	margin-bottom: 20px;
+}
+
+.about-paragraph p {
+	min-width: 340px;
+	padding: 0 40px;
+	font-size: 1.25em;
 }
 
 
-
-
 /********************* WORK MEDIA *********************/
+
+#work-anchor {
+	margin-top: 30px;
+}
+
+.work-h1 {
+	padding: 25px 0 20px;
+}
 
 #work p {
 	margin: 0;
@@ -508,6 +559,11 @@ header {
 	width: 30%;
 	height: 30%;
 	margin: 0;
+}
+
+#web-design,
+#lightGallery {
+	margin: 20px 0 30px;
 }
 
 #web-design img {
@@ -554,15 +610,28 @@ span {
 	border-radius: 20px;
 }
 
+#contact-bkg {
+	box-shadow: 0px 0px 35px 20px #ddd inset; /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 0px 35px 20px #ddd inset;
+		-moz-box-shadow: 0px 0px 35px 20px #ddd inset;
+}
+
+.contact-h1 {
+	padding: 30px 0 25px;
+}
+
 #contact {
 	max-width: 70%;
 	margin: 0 auto;
 }
 
 #contact p {
-	padding: 20px;
+	padding: 50px;
 }
 
+.top-link {
+	font-size: 1.2em;
+}
 
 
 }
