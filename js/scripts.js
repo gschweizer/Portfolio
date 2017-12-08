@@ -23,6 +23,21 @@ window.onload = function() {
     });
 
 
+
+        var mn = $(".main-nav");
+
+            $(window).scroll(function() {
+                //if the window is scrolled 275px up, then add the class, "main-nav-scrolled" (which makes it stick)
+                if($(this).scrollTop() > 275) {
+                    mn.addClass("main-nav-scrolled");
+                }
+                //if we scroll back up 275px, then removed the "main-nav-scrolled" class
+                else {
+                    mn.removeClass("main-nav-scrolled");
+                }
+            });
+
+
+
+
 };
-
-

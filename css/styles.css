@@ -251,7 +251,6 @@ label {
 /********************* WORK *********************/
 
 .wrapper {
-	max-width: 1200px;
 	margin: 0 auto;
 }
 
@@ -405,7 +404,7 @@ footer {
 	padding-bottom: 80px;
 	padding-top: 20px;
 	text-align: center;
-	background-color: #d1d3d4;
+	background-color: #a8a9ac;
 }
 
 footer a {
@@ -455,6 +454,7 @@ fieldset {
 .welcome {
 	display: block;
 	margin: 0 auto;
+	width: 400px;
 }
 
 .welcome2 {
@@ -640,17 +640,28 @@ fieldset {
 
 /********************* HEADER 1024PX *********************/
 
+body {
+	padding-top: 275px;
+}
+
+#top {
+	height: 275px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	border: none;
+}
+
 .logo {
 	content: url("tablet-logo.png");
-	padding: 0;
-	height: 100%;
-	width: 400px;
-	margin: 75px 50px;
+	height: 120px;
+	width: auto;
+	margin: auto 50px;
 }
 
 #nav-bkg {
 	height: 700px;
-	padding-top: 0;
+	padding: 0;
 }
 
 .welcome {
@@ -659,26 +670,43 @@ fieldset {
 
 .welcome2 {
 	display: block;
-	height: 350px;
-	margin: 125px auto;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	height: auto;
+	width: 400px;
+  	margin-top: -130px; /* Half the height */
+  	margin-left: -200px; /* Half the width */
+}
+
+.main {
+	position: relative;
+	background: #fff;
+}
+
+#nav-bkg,
+.main-nav {
+	position: relative;
+	z-index: 150;
 }
 
 .main-nav {
 	display: flex;
 	flex-flow: row wrap;
 	padding: 0;
-	margin: 0 auto;
+	margin: 0 auto -80px;
 	justify-content: center;
 	height: 80px;
 	width: 100%;
-	background: #ede5d9;
-	box-shadow: 0px 2px 5px rgba(189, 154, 95, 0.4); /*horiz offset, vertical offset, blur, spread*/
-		-webkit-box-shadow: 0px 2px 5px rgba(189, 154, 95, 0.4);
-		-moz-box-shadow: 0px 2px 5px rgba(189, 154, 95, 0.4);
+	background: #49553f;
+	box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4); /*horiz offset, vertical offset, blur, spread*/
+		-webkit-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
+		-moz-box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.4);
 }
 
 .main-nav a {
 	margin: 0 auto;
+	color: #eeeded;
 }
 
 .main-nav li {
@@ -690,6 +718,12 @@ fieldset {
 	position: relative;
 	content: url("hover_image.png");
 	top: -15px;
+	width: 100%;
+}
+
+.main-nav-scrolled {
+	position: fixed;
+	top: 0;
 	width: 100%;
 }
 
@@ -724,6 +758,10 @@ fieldset {
 
 #web-design img {
 	margin: 0;
+}
+
+.work-h1 {
+	padding: 22px 0 13px;
 }
 
 .wrap {
@@ -766,6 +804,14 @@ fieldset {
 
 #web-design span {
 	color: #eee;
+}
+
+
+
+/********************* CONTACT 1024PX *********************/
+
+.contact-h1 {
+	padding: 20px;
 }
 
 
